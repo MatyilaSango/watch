@@ -35,7 +35,6 @@ export class ClockComponent implements OnInit {
 
   startClock() {
     this.isClockOn = !this.isClockOn
-    this.updateTime(new Date());
     let interval = setInterval((): void => {
       this.updateTime(this.clock.getDate());
       if (!this.isClockOn) clearInterval(interval)
