@@ -1,4 +1,6 @@
-# Watch
+# Watch - AngularJS
+
+![image](https://github.com/MatyilaSango/watch/assets/60422984/da0e21b9-3967-4136-b304-241155474393)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 

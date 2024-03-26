@@ -1,6 +1,7 @@
 {
   "name": "watch",
   "version": "0.0.0",
+  "description": "Simple clocl created using AngularJS",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,0 +1,112 @@
+.watch{
+    background-color: #2E3042;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 10px rgb(110, 110, 110);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.onBtn-container{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.isClockOn{
+    background-color: var(--text-color);
+}
+
+.onBtn{
+    width: 30px;
+    height: 30px;
+}
+
+.heading{
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    height: 10%;
+}
+
+.clock-container{
+    height: 70%;
+}
+
+.clock{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #242633;
+    position: relative;
+}
+
+.clock-number{
+    position: absolute;
+    color: var(--text-color);
+}
+
+.clock-number:nth-child(1){
+    right: 10px;
+}
+.clock-number:nth-child(2){
+    bottom: 10px;
+}
+.clock-number:nth-child(3){
+    left: 10px;
+}
+.clock-number:nth-child(4){
+    top: 10px;
+}
+
+.clock-digits{
+    height: 20%;
+}
+
+.full-date{
+    color: var(--text-color);
+    font-size: 13px;
+}
+
+.digits{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.arm-container{
+    height: 70%;
+    width: 3px;
+    position: absolute;
+}
+
+.min-arm{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    background-color: red;
+}
+
+.hrs-arm{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 50%;
+    background-color: var(--text-color);
+}
+
+.sec-arm{
+    position: absolute;
+    top: -5%;
+    width: 100%;
+    height: 80%;
+    background-color: orange;
+}
+
+.clock-knob{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: dimgray;
+}

@@ -1,0 +1,35 @@
+<main class="watch">
+    <div class="header">
+        <div class="onBtn-container" [class.isClockOn]="isClockOn" (click)="startClock()">
+            <img class="onBtn" [src]="clockImg" alt="" />
+        </div>
+        <h1 class="heading center">{{title}}</h1>
+    </div>
+    <div class="clock-container center">
+        <div class="clock center">
+            <span class="clock-number">3</span>
+            <span class="clock-number">6</span>
+            <span class="clock-number">9</span>
+            <span class="clock-number">12</span>
+            <div class="arm-container" [style]="minutesArmContainer">
+                <div class="min-arm"></div>
+            </div>
+            <div class="arm-container" [style]="hoursArmContainer">
+                <div class="hrs-arm"></div>
+            </div>
+            <div class="arm-container" [style]="secondsArmContainer">
+                <div class="sec-arm"></div>
+            </div>
+            <div class="clock-knob"></div>
+        </div>
+    </div>
+    <div class="clock-digit center">
+        <div>
+            <div class="digits">
+                {{time | date : "hh:mm:ss"}}
+            </div>
+            <div class="center full-date">{{ time | date }}</div>
+        </div>
+
+    </div>
+</main>
